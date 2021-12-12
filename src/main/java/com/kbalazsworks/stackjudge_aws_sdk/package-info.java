@@ -1,2 +1,2 @@
 /** Package containing the classes for StackjudgeAwsAPI. null. */
-package com.kbalazsworks.stackjudge_sdk;
+package com.kbalazsworks.stackjudge_aws_sdk;

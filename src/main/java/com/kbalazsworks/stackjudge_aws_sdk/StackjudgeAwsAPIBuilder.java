@@ -1,4 +1,4 @@
-package com.kbalazsworks.stackjudge_sdk;
+package com.kbalazsworks.stackjudge_aws_sdk;
 
 import com.azure.core.annotation.ServiceClientBuilder;
 import com.azure.core.http.HttpClient;

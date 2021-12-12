@@ -1,2 +1,2 @@
 /** Package containing the data models for StackjudgeAwsAPI. null. */
-package com.kbalazsworks.stackjudge_sdk.models;
+package com.kbalazsworks.stackjudge_aws_sdk.models;

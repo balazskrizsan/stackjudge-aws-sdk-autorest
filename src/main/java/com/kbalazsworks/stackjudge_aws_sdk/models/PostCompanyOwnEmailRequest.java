@@ -1,4 +1,4 @@
-package com.kbalazsworks.stackjudge_sdk.models;
+package com.kbalazsworks.stackjudge_aws_sdk.models;
 
 import com.azure.core.annotation.Fluent;
 import com.fasterxml.jackson.annotation.JsonProperty;
