@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'maven-publish'
 }
 
 repositories {
@@ -26,4 +27,17 @@ compileJava {
 
 compileTestJava {
     options.encoding = 'UTF-8'
+}
+
+//generate pom.xml: gradle publishMavenPublicationToMavenLocal > build/publications/maven
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'com.kbalazsworks'
+            artifactId = 'stackjudge_aws_sdk'
+            version = '1.0.0-SNAPSHOT'
+
+            from components.java
+        }
+    }
 }
